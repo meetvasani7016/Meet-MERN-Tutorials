@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style type="text/tailwindcss">
+    /* Simulating custom compiled component class */
+    @layer components {
+      .btn-pill {
+        @apply bg-indigo-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-indigo-700 transition;
+      }
+    }
+  </style>
+</head>
+<body class="p-8 bg-gray-50 flex justify-center">
+  <button class="btn-pill">Pill Action</button>
+</body>
+</html>

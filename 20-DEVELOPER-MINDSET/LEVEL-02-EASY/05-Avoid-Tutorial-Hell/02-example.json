@@ -1,0 +1,8 @@
+{
+  "Escape Plan": [
+    "1. Stop watching. Open your IDE editor with a blank workspace.",
+    "2. Choose a project featuring CRUD operations (e.g. library registry).",
+    "3. Outline core elements: data models, routes, layouts.",
+    "4. Build block-by-block, resolving issues using MDN/Express documentation."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "JS Q&A": [
+    {
+      "q": "What is a closure in JavaScript?",
+      "a": "A function that has access to its outer function scope even after the outer function has returned."
+    },
+    {
+      "q": "What is the event loop?",
+      "a": "A mechanism that allows Node/browsers to execute non-blocking async operations by offloading tasks to the OS and running callbacks when ready."
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Modify options parameters to show the date in short format instead of long description format.

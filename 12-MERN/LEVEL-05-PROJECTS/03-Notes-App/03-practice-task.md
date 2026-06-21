@@ -1,0 +1,1 @@
+Add a database query search input on the heading that queries the database using query search terms.

@@ -1,0 +1,1 @@
+Add an extra secondary outline button next to 'Get Started Free' for 'Watch Tutorial'.

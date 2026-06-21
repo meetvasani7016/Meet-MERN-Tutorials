@@ -1,0 +1,16 @@
+{
+  "Resume Template Structure": {
+    "Header": "Name, Phone, Email, GitHub URL, Portfolio URL",
+    "Technical Skills": "Languages, Frameworks, Databases, Tools",
+    "Projects": [
+      {
+        "name": "Collaborative Task Manager",
+        "tech": "MERN Stack, JWT, Tailwind",
+        "bullets": [
+          "Developed stateless JWT authentication secure cookie layers.",
+          "Optimized task loading speed by implementing MongoDB indexed search queries."
+        ]
+      }
+    ]
+  }
+}

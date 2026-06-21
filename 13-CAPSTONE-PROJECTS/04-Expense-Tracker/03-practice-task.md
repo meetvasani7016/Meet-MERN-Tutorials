@@ -1,0 +1,1 @@
+Add a new enum category 'Travel' to the transaction schema.

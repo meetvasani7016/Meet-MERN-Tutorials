@@ -1,0 +1,1 @@
+Add a mock record for Sydney to the local dataset showing 21°C.

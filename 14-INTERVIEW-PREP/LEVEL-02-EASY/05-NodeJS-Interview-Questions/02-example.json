@@ -1,0 +1,12 @@
+{
+  "Node Q&A": [
+    {
+      "q": "Why is Node.js called non-blocking?",
+      "a": "Because I/O tasks are run asynchronously in the background, allowing Node to continue executing other code without waiting for files or databases to finish."
+    },
+    {
+      "q": "What is npm?",
+      "a": "Node Package Manager, the default package repository for installing third-party JavaScript libraries."
+    }
+  ]
+}

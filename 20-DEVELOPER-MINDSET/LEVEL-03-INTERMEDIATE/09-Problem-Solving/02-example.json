@@ -1,0 +1,8 @@
+{
+  "Problem Solving Steps": [
+    "1. Define: What are the inputs (request query params) and expected outputs (stats JSON)?",
+    "2. Pseudocode: Write comments detailing the Mongoose aggregation stages.",
+    "3. Code: Implement match, group, and sort steps block-by-block.",
+    "4. Test: Call the route with empty records, verify it returns 0 without crashing."
+  ]
+}

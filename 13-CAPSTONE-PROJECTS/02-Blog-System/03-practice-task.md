@@ -1,0 +1,1 @@
+Add tag arrays to the post schema mapping category filters.

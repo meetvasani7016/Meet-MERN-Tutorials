@@ -1,0 +1,1 @@
+Add a new enum category 'Transport' to the expenseSchema.

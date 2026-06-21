@@ -1,0 +1,1 @@
+Add an aggregation request on backend server startup calculating total balance sum stats.

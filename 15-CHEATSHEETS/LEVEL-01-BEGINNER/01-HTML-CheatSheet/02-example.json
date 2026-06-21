@@ -1,0 +1,16 @@
+{
+  "HTML Cheatsheet": {
+    "Document Skeleton": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>Title</title>\n  </head>\n  <body>\n    <!-- visible content -->\n  </body>\n</html>",
+    "Text Tags": {
+      "Heading": "<h1>Title</h1> (h1 to h6)",
+      "Paragraph": "<p>Text content</p>",
+      "Bold": "<strong>Bold text</strong>",
+      "Italic": "<em>Italic text</em>",
+      "Line Break": "<br>"
+    },
+    "Links & Images": {
+      "Anchor Link": "<a href=\"https://google.com\">Google</a>",
+      "Image": "<img src=\"logo.png\" alt=\"Logo\">"
+    }
+  }
+}

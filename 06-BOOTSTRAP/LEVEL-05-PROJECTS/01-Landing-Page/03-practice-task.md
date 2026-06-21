@@ -1,0 +1,1 @@
+Add a new button class variant to the hero section carousel.

@@ -1,0 +1,12 @@
+{
+  "Mongo Q&A": [
+    {
+      "q": "What are the advantages of NoSQL over SQL?",
+      "a": "Dynamic, flexible schema models, faster reads of nested structures, and easier horizontal scaling compared to relational tables."
+    },
+    {
+      "q": "What is Mongoose?",
+      "a": "An ODM (Object Data Modeling) library for MongoDB and Node.js that adds schema structures and validations on top of NoSQL."
+    }
+  ]
+}

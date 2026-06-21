@@ -1,0 +1,12 @@
+{
+  "HTML Q&A": [
+    {
+      "q": "What is semantic HTML?",
+      "a": "Tags that describe their meaning (e.g. <header>, <footer>) instead of their look. It helps search engines (SEO) and accessibility (screen readers)."
+    },
+    {
+      "q": "What is the alt attribute used for?",
+      "a": "It provides a text description for images, which is read by screen readers and displayed if the image fails to load."
+    }
+  ]
+}

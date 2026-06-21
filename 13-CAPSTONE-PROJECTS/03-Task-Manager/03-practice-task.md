@@ -1,0 +1,1 @@
+Add an assignee search input inside the React task board header.

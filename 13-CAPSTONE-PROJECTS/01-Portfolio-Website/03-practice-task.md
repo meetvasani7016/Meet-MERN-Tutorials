@@ -1,0 +1,1 @@
+Add a new field 'subject' to the Contact mongoose schema.

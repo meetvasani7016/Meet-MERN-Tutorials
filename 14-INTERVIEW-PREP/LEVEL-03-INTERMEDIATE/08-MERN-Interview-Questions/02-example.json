@@ -1,0 +1,12 @@
+{
+  "MERN Q&A": [
+    {
+      "q": "How does the MERN stack communicate?",
+      "a": "React frontend sends fetch requests with HTTP headers to the Express API server, which queries MongoDB via Mongoose and returns JSON arrays."
+    },
+    {
+      "q": "How do you protect routes in MERN?",
+      "a": "Use a JWT token stored in an HTTP-Only Cookie. Express route middleware verifies the token signature, and React Router redirects unauthenticated views."
+    }
+  ]
+}

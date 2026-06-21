@@ -1,0 +1,1 @@
+Add a new button that increases the counter by 5 on every click.

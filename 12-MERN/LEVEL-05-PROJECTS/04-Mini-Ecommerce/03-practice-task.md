@@ -1,0 +1,1 @@
+Add a button 'Remove from Cart' that completely deletes the target item from the cart state array.

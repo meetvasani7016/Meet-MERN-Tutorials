@@ -1,0 +1,1 @@
+Add color rules that print positive balances in green text and negative balances in red text.

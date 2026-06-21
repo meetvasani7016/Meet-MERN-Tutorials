@@ -1,0 +1,15 @@
+{
+  "CSS Cheatsheet": {
+    "Selectors": {
+      "Element": "h1 { color: red; }",
+      "Class": ".btn { background: blue; }",
+      "ID": "#main { padding: 10px; }"
+    },
+    "Flexbox Container": {
+      "Syntax": ".flex-container {\n  display: flex;\n  justify-content: center; /* horizontal align */\n  align-items: center; /* vertical align */\n  flex-direction: row; /* row or column */\n}"
+    },
+    "Grid Layout": {
+      "Syntax": ".grid-container {\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  gap: 15px;\n}"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "FullStack Roadmap": [
+    "1. Integration: Whitelisting CORS access across client/server ports.",
+    "2. API Consumption: Fetching database collections inside React useEffect hooks.",
+    "3. Authentications: Stateful cookies vs stateless signed JWT tokens.",
+    "4. Deployment: Deploying static client assets to Vercel and API services to Render."
+  ]
+}

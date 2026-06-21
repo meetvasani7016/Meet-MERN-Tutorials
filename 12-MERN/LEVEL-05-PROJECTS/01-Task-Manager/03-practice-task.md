@@ -1,0 +1,1 @@
+Add a status filter category toggle (Completed vs Pending) inside the tasks grid list.

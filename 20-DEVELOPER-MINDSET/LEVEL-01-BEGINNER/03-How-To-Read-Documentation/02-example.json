@@ -1,0 +1,8 @@
+{
+  "Docs Reading Strategy": [
+    "1. Scan: Read the quickstart code to understand core setups.",
+    "2. Locate: Find parameters lists to check types and inputs.",
+    "3. Sandbox: Open code playgrounds to run documentation examples.",
+    "4. Search: Look up error logs directly inside repository issues threads."
+  ]
+}

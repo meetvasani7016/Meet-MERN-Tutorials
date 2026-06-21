@@ -1,0 +1,1 @@
+Add a list of social links pointing to your mock GitHub and LinkedIn pages.

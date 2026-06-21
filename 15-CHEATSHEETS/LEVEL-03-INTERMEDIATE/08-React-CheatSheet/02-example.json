@@ -1,0 +1,8 @@
+{
+  "React Hooks": {
+    "useState": "const [val, setVal] = useState(initialState);",
+    "useEffect": "useEffect(() => {\n  // code runs on mount\n  return () => { // cleanup on unmount };\n}, [dependencies]);",
+    "useContext": "const value = useContext(MyContext);"
+  },
+  "JSX List Render": "<ul>\n  {items.map(item => <li key={item.id}>{item.name}</li>)}\n</ul>"
+}

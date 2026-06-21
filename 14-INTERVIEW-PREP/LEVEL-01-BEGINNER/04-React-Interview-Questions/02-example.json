@@ -1,0 +1,12 @@
+{
+  "React Q&A": [
+    {
+      "q": "What is the Virtual DOM?",
+      "a": "A memory representation of the UI. React compares it with the real DOM and updates only the changed elements, improving performance."
+    },
+    {
+      "q": "What is the difference between state and props?",
+      "a": "State is internal data managed by the component itself; props are external parameters passed into the component by its parent."
+    }
+  ]
+}

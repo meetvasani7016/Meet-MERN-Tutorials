@@ -1,0 +1,1 @@
+Add a custom command 'read' that outputs the body of a note search-matched by its title.

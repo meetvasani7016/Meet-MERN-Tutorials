@@ -1,0 +1,12 @@
+{
+  "HR Q&A": [
+    {
+      "q": "Tell me about yourself.",
+      "a": "A passionate junior full-stack developer specializing in MERN. Built several portfolio projects, love debugging complex problems, and eager to learn production scales."
+    },
+    {
+      "q": "How do you handle debugging blocks?",
+      "a": "Break the code down, check server logs, read docs, and search threads. If blocked for over an hour, I formulate a clear question to ask teammates."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "Express Q&A": [
+    {
+      "q": "What is middleware in Express?",
+      "a": "A function that has access to the request object, response object, and the next middleware in the cycle to perform tasks like parsing, validation, or auth."
+    },
+    {
+      "q": "What is CORS?",
+      "a": "Cross-Origin Resource Sharing, a security mechanism that allows or blocks browser fetch requests from other domain origins."
+    }
+  ]
+}

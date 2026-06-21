@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Counter App</title>
+  <style>
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh; background: linear-gradient(135deg, #0f172a, #1e1b4b); color: white; margin: 0; }
+    .counter-card { background: rgba(255, 255, 255, 0.05); padding: 40px; border-radius: 16px; border: 1px solid rgba(255, 255, 255, 0.1); box-shadow: 0 12px 24px rgba(0,0,0,0.3); text-align: center; backdrop-filter: blur(10px); }
+    h1 { margin: 0 0 20px; font-size: 28px; letter-spacing: 1px; color: #a5b4fc; }
+    #value { font-size: 72px; font-weight: bold; margin: 20px 0; color: #818cf8; transition: transform 0.1s; }
+    .btn-group { display: flex; gap: 15px; }
+    button { background: #4f46e5; color: white; border: none; padding: 12px 24px; border-radius: 8px; cursor: pointer; font-weight: bold; font-size: 16px; transition: background 0.2s, transform 0.1s; }
+    button:hover { background: #6366f1; transform: translateY(-2px); }
+    button:active { transform: translateY(0); }
+    button.reset { background: #334155; }
+    button.reset:hover { background: #475569; }
+  </style>
+</head>
+<body>
+  <div class="counter-card">
+    <h1>Tally Counter</h1>
+    <div id="value">0</div>
+    <div class="btn-group">
+      <button id="decrease">Decrease</button>
+      <button id="reset" class="reset">Reset</button>
+      <button id="increase">Increase</button>
+    </div>
+  </div>
+  <script>
+    let count = 0;
+    const value = document.getElementById('value');
+    const increaseBtn = document.getElementById('increase');
+    const decreaseBtn = document.getElementById('decrease');
+    const resetBtn = document.getElementById('reset');
+
+    increaseBtn.addEventListener('click', () => {
+      count++;
+      value.innerText = count;
+      value.style.transform = 'scale(1.1)';
+      setTimeout(() => value.style.transform = 'scale(1)', 100);
+    });
+
+    decreaseBtn.addEventListener('click', () => {
+      count--;
+      value.innerText = count;
+      value.style.transform = 'scale(0.9)';
+      setTimeout(() => value.style.transform = 'scale(1)', 100);
+    });
+
+    resetBtn.addEventListener('click', () => {
+      count = 0;
+      value.innerText = count;
+    });
+  </script>
+</body>
+</html>

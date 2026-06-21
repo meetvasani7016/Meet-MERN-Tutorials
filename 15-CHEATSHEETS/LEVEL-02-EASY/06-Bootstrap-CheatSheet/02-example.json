@@ -1,0 +1,15 @@
+{
+  "Bootstrap CSS": {
+    "Grid Columns": "<div class=\"row\">\n  <div class=\"col-md-8\">Main</div>\n  <div class=\"col-md-4\">Sidebar</div>\n</div>",
+    "Button Styles": {
+      "Primary": "class=\"btn btn-primary\"",
+      "Outline Success": "class=\"btn btn-outline-success\"",
+      "Large Size": "class=\"btn btn-lg\""
+    },
+    "Spacing Utilities": {
+      "Margin Top 3": "class=\"mt-3\"",
+      "Padding All 2": "class=\"p-2\"",
+      "Horizontal Center": "class=\"mx-auto\""
+    }
+  }
+}

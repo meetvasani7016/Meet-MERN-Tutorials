@@ -1,0 +1,1 @@
+Add a route '/api/time' that returns the current server time in JSON format.

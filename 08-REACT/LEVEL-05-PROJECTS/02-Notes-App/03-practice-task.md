@@ -1,0 +1,1 @@
+Add a title field to the notes state object and render it in bold above the note description text.

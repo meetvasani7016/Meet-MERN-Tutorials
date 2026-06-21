@@ -1,0 +1,1 @@
+Run this branching simulation on your machine. Inspect the final graph layout to see the merge point.

@@ -1,0 +1,1 @@
+Add an unordered list of social media link text items at the bottom of the card styled side-by-side.

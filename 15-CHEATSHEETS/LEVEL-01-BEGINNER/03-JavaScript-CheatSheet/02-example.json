@@ -1,0 +1,13 @@
+{
+  "JS Cheatsheet": {
+    "Variables": "let dynamic = 10; const immutable = 20;",
+    "Loops": "for (let i = 0; i < 5; i++) { console.log(i); }",
+    "Arrow Function": "const greet = (name) => 'Hello ' + name;",
+    "Array Helper Methods": {
+      "map": "arr.map(x => x * 2)",
+      "filter": "arr.filter(x => x > 10)",
+      "reduce": "arr.reduce((acc, x) => acc + x, 0)"
+    },
+    "Async/Await Fetch": "async function getData() {\n  const res = await fetch('url');\n  const data = await res.json();\n}"
+  }
+}

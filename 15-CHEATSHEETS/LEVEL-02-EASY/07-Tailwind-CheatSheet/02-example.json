@@ -1,0 +1,11 @@
+{
+  "Tailwind Cheatsheet": {
+    "Spacing": {
+      "Margin": "m-4 (1rem), mt-2 (top), mx-auto (horizontal center)",
+      "Padding": "p-3 (0.75rem), px-4 (horizontal), py-2 (vertical)"
+    },
+    "Flexbox": "flex justify-between items-center gap-4",
+    "Grid System": "grid grid-cols-1 md:grid-cols-3 gap-6",
+    "Typography": "text-lg font-bold text-center text-gray-800"
+  }
+}

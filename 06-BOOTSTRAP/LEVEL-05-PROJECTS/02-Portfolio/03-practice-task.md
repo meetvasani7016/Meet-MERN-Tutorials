@@ -1,0 +1,1 @@
+Add a footer bar using Bootstrap utilities setting dark backgrounds and centered light-colored text.

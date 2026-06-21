@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    // Custom tailwind configuration overrides
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: '#4f46e5',
+            brandDark: '#3730a3'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center h-screen">
+  <div class="bg-brand text-white p-8 rounded-lg shadow-lg text-center hover:bg-brandDark transition-colors">
+    <h2 class="text-2xl font-bold">Custom Themed Component</h2>
+  </div>
+</body>
+</html>

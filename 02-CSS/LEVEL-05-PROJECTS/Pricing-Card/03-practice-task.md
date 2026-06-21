@@ -1,0 +1,1 @@
+Add a third plan card for 'Enterprise Plan' priced at $49/mo.

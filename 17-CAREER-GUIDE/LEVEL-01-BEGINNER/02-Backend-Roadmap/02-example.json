@@ -1,0 +1,9 @@
+{
+  "Backend Roadmap": [
+    "1. Server Runtime: Node.js core modules (fs, path, events).",
+    "2. API Layer: Express routing, middleware pipelines, and CRUD.",
+    "3. Database: MongoDB NoSQL structures, document query operators, Mongoose.",
+    "4. Security: bcrypt hashing, JWT auth tokens, CORS access controls.",
+    "5. Devops: Environment variables configurations, hosting servers on Render."
+  ]
+}

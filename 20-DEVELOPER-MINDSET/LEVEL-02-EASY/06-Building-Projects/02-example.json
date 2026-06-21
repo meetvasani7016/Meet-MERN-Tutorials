@@ -1,0 +1,8 @@
+{
+  "MVP Build Checklist": [
+    "1. Define database attributes (e.g. title: String, content: String).",
+    "2. Create Express endpoints (GET list, POST item, DELETE item).",
+    "3. Build simple React client listing items and submitting forms.",
+    "4. Deploy code to Render and whitelisted database clusters."
+  ]
+}

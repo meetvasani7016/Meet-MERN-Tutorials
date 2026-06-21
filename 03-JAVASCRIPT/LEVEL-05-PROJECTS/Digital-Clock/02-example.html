@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Clock</title>
+  <style>
+    body { font-family: 'Courier New', Courier, monospace; display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh; background-color: #0b0f19; color: #00ffcc; margin: 0; text-shadow: 0 0 10px #00ffcc; }
+    .clock-container { border: 2px solid #00ffcc; padding: 30px 60px; border-radius: 12px; background: rgba(0,255,204,0.05); text-align: center; }
+    #time { font-size: 64px; font-weight: bold; }
+    #date { font-size: 20px; color: #8892b0; margin-top: 15px; text-shadow: none; }
+    button { margin-top: 20px; background: #00ffcc; color: black; border: none; padding: 10px 20px; border-radius: 4px; font-weight: bold; cursor: pointer; text-shadow: none; box-shadow: 0 0 5px #00ffcc; }
+    button:hover { background: white; box-shadow: 0 0 15px white; }
+  </style>
+</head>
+<body>
+  <div class="clock-container">
+    <div id="time">00:00:00</div>
+    <div id="date">Loading Date...</div>
+    <button id="pause-btn">Pause Clock</button>
+  </div>
+  <script>
+    const timeDisplay = document.getElementById('time');
+    const dateDisplay = document.getElementById('date');
+    const pauseBtn = document.getElementById('pause-btn');
+
+    let isPaused = false;
+
+    function updateClock() {
+      if (isPaused) return;
+      const now = new Date();
+      timeDisplay.innerText = now.toLocaleTimeString();
+      
+      const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+      dateDisplay.innerText = now.toLocaleDateString(undefined, options);
+    }
+
+    const intervalId = setInterval(updateClock, 1000);
+    updateClock(); // Initial run
+
+    pauseBtn.addEventListener('click', () => {
+      isPaused = !isPaused;
+      pauseBtn.innerText = isPaused ? 'Resume Clock' : 'Pause Clock';
+      if (isPaused) {
+        timeDisplay.style.color = '#8892b0';
+        timeDisplay.style.textShadow = 'none';
+      } else {
+        timeDisplay.style.color = '#00ffcc';
+        timeDisplay.style.textShadow = '0 0 10px #00ffcc';
+      }
+    });
+  </script>
+</body>
+</html>

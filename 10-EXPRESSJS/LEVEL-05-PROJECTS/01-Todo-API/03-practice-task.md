@@ -1,0 +1,1 @@
+Add an endpoint 'DELETE /api/todos' that wipes out all completed tasks in one call.

@@ -1,0 +1,9 @@
+{
+  "Mock Checklist": [
+    "1. Read the coding prompt completely.",
+    "2. Ask clarifying questions (e.g. range of inputs, edge cases).",
+    "3. Explain your planned approach *before* writing code.",
+    "4. Code aloud, explaining the 'why' behind variables and loops.",
+    "5. Review code for bugs, dry run with test variables, and optimize."
+  ]
+}

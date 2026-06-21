@@ -1,0 +1,1 @@
+Add a mock record for Tokyo showing 26°C with rainy characteristics.

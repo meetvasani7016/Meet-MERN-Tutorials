@@ -1,0 +1,1 @@
+Add a button that clears all tasks from the todo list.

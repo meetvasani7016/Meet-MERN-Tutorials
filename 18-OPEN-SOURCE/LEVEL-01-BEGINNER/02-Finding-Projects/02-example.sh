@@ -1,0 +1,2 @@
+# Search GitHub API for active repositories with good-first-issue tags
+curl -s "https://api.github.com/search/issues?q=label:good-first-issue+state:open+language:javascript" | grep html_url | head -n 5

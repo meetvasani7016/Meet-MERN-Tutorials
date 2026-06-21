@@ -1,0 +1,12 @@
+{
+  "CSS Q&A": [
+    {
+      "q": "What is the CSS Box Model?",
+      "a": "Every element is represented as a rectangular box consisting of Content, Padding, Border, and Margin from the inside out."
+    },
+    {
+      "q": "Explain the difference between Flexbox and Grid.",
+      "a": "Flexbox is designed for 1-dimensional layouts (rows OR columns), while Grid is designed for 2-dimensional layouts (rows AND columns)."
+    }
+  ]
+}

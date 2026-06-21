@@ -1,0 +1,8 @@
+{
+  "Pomodoro Protocol": [
+    "1. Set timer to 25 minutes.",
+    "2. Close Slack, social tabs, and mute phone.",
+    "3. Focus solely on one coding task (e.g. writing Mongoose routes).",
+    "4. Take a 5-minute physical break when the timer runs."
+  ]
+}

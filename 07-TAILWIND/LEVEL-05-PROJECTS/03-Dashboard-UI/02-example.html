@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-900 text-slate-100 flex h-screen overflow-hidden">
+  <!-- Sidebar -->
+  <aside class="w-64 bg-slate-950 border-r border-slate-800 p-6 hidden md:flex flex-col justify-between">
+    <div>
+      <h2 class="text-xl font-bold text-indigo-500 mb-8">AdminPanel</h2>
+      <nav class="space-y-4">
+        <a href="#" class="block bg-slate-800 text-white px-4 py-2 rounded-xl text-sm font-medium">Dashboard</a>
+        <a href="#" class="block text-slate-400 hover:text-white px-4 py-2 text-sm">Users</a>
+      </nav>
+    </div>
+    <div class="text-xs text-slate-600">v1.0.0 Release</div>
+  </aside>
+
+  <!-- Main Workspace -->
+  <main class="flex-1 flex flex-col overflow-hidden">
+    <!-- Header -->
+    <header class="bg-slate-950 h-16 border-b border-slate-800 flex items-center justify-between px-8">
+      <div class="font-bold">Dashboard Overview</div>
+      <div class="w-8 h-8 bg-indigo-500 rounded-full flex items-center justify-center font-bold">A</div>
+    </header>
+
+    <!-- Content Area -->
+    <div class="flex-1 overflow-y-auto p-8 space-y-6">
+      <!-- Stats Row -->
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+        <div class="bg-slate-800 border border-slate-700 p-6 rounded-2xl shadow-sm">
+          <div class="text-xs text-slate-400 font-semibold">Total Revenue</div>
+          <div class="text-2xl font-bold mt-2">$24,902</div>
+        </div>
+        <div class="bg-slate-800 border border-slate-700 p-6 rounded-2xl shadow-sm">
+          <div class="text-xs text-slate-400 font-semibold">Active Subscriptions</div>
+          <div class="text-2xl font-bold mt-2">1,249</div>
+        </div>
+        <div class="bg-slate-800 border border-slate-700 p-6 rounded-2xl shadow-sm">
+          <div class="text-xs text-slate-400 font-semibold">Completed Orders</div>
+          <div class="text-2xl font-bold mt-2">842</div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

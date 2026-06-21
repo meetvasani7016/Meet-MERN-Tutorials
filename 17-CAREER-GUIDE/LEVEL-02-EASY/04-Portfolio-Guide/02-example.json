@@ -1,0 +1,9 @@
+{
+  "Portfolio Projects Guidelines": [
+    "1. Include a live URL deployment link (Vercel/Render).",
+    "2. Provide a clear 1-paragraph summary of what the app does.",
+    "3. List the tech stack used (e.g. React, Express, Mongoose).",
+    "4. Show a visual preview or diagram of the layout.",
+    "5. Outline installation instructions for local testing."
+  ]
+}

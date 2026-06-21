@@ -1,0 +1,7 @@
+{
+  "Consistency Metrics": {
+    "Daily Target": "1 hour of coding",
+    "Commit Requirement": "Push at least one change to GitHub daily",
+    "Tracking": "Maintain green contribution grid blocks"
+  }
+}

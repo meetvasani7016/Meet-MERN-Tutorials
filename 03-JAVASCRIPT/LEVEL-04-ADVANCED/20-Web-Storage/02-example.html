@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h1>Web Storage Demo</h1>
+  <button id="dark-mode">Dark Mode</button>
+  <button id="light-mode">Light Mode</button>
+  
+  <script>
+    const darkBtn = document.getElementById("dark-mode");
+    const lightBtn = document.getElementById("light-mode");
+
+    // 1. Setting and Getting Simple Strings
+    darkBtn.addEventListener("click", () => {
+      localStorage.setItem("themePreference", "dark");
+      applyTheme();
+    });
+
+    lightBtn.addEventListener("click", () => {
+      localStorage.setItem("themePreference", "light");
+      applyTheme();
+    });
+
+    function applyTheme() {
+      const currentTheme = localStorage.getItem("themePreference");
+      console.log("Current Theme stored:", currentTheme);
+      document.body.style.backgroundColor = currentTheme === "dark" ? "#1e293b" : "#ffffff";
+      document.body.style.color = currentTheme === "dark" ? "#ffffff" : "#000000";
+    }
+
+    applyTheme(); // Run on startup to load user settings!
+
+    // 2. Saving Arrays and Objects (Must convert to JSON string!)
+    const userProfile = { username: "Alice", highscore: 950 };
+    
+    // Save Object
+    localStorage.setItem("userRecord", JSON.stringify(userProfile));
+
+    // Retrieve Object
+    const savedString = localStorage.getItem("userRecord");
+    if (savedString) {
+      const parsedUser = JSON.parse(savedString); // Convert back to JS Object
+      console.log("Parsed User score:", parsedUser.highscore); // 950
+    }
+
+    // 3. Removing Items
+    // localStorage.removeItem("themePreference"); // Deletes key
+    // localStorage.clear(); // Wipes all local storage for this domain
+  </script>
+</body>
+</html>

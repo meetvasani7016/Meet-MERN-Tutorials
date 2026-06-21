@@ -1,0 +1,8 @@
+{
+  "Remote Work Best Practices": [
+    "1. Async Messaging: Include full context in your text. Avoid 'Hi, you free?'",
+    "2. Documentation: Save configurations in repository markdown files.",
+    "3. Work Boundaries: Have a dedicated workspace and log off on time.",
+    "4. Sync: Be prompt during daily standups and sprint reviews."
+  ]
+}

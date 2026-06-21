@@ -1,0 +1,1 @@
+Recreate the script steps locally. Verify your repository status after each command to build muscle memory.

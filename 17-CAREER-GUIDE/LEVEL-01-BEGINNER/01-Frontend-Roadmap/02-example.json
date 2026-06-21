@@ -1,0 +1,9 @@
+{
+  "Frontend Roadmap": [
+    "1. Basics: HTML5 structures & CSS3 box model sizing.",
+    "2. Layouts: Flexbox alignments, Grid grids layouts, and Media Queries.",
+    "3. JavaScript: Variables, Arrays, Objects, Promises, and DOM queries.",
+    "4. Tooling: Git terminal versioning, npm package initializations.",
+    "5. Frameworks: React components hierarchy, states hooks, API fetching."
+  ]
+}

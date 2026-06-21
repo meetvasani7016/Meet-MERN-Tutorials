@@ -1,0 +1,1 @@
+Add a route to get a single note by its ID parameter, returning 404 if not found.

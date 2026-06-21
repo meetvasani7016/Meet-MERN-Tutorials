@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing Plan</title>
+  <style>
+    body { font-family: Arial, sans-serif; display: flex; justify-content: center; align-items: center; min-height: 100vh; background-color: #f0f0f0; margin: 0; }
+    .pricing-container { display: flex; gap: 20px; padding: 20px; }
+    .plan { background: white; padding: 30px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); text-align: center; width: 200px; }
+    .popular { border: 2px solid gold; transform: scale(1.05); position: relative; }
+    .badge { position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: gold; color: black; font-size: 11px; font-weight: bold; padding: 3px 10px; border-radius: 10px; }
+    .price { font-size: 32px; font-weight: bold; margin: 15px 0; }
+    ul { list-style: none; padding: 0; margin-bottom: 25px; }
+    li { margin-bottom: 10px; color: #555; }
+    .btn { background: black; color: white; border: none; width: 100%; padding: 10px; border-radius: 4px; cursor: pointer; font-weight: bold; }
+    .popular .btn { background: gold; color: black; }
+  </style>
+</head>
+<body>
+  <div class="pricing-container">
+    <div class="plan">
+      <h3>Basic</h3>
+      <div class="price">$5/mo</div>
+      <ul>
+        <li>1 Project</li>
+        <li>10 GB Storage</li>
+      </ul>
+      <button class="btn">Select Basic</button>
+    </div>
+    <div class="plan popular">
+      <div class="badge">POPULAR</div>
+      <h3>Pro</h3>
+      <div class="price">$15/mo</div>
+      <ul>
+        <li>10 Projects</li>
+        <li>100 GB Storage</li>
+      </ul>
+      <button class="btn">Select Pro</button>
+    </div>
+  </div>
+</body>
+</html>

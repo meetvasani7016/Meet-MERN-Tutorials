@@ -1,0 +1,9 @@
+{
+  "Help Request Template": {
+    "Title": "Error: Mongoose connection fails locally on port 27017",
+    "Description": "Attempting to connect Express server locally to MongoDB but receiving connection timeout.",
+    "Error Log": "MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017",
+    "Code Snippet": "mongoose.connect('mongodb://localhost:27017/db')",
+    "Attempted Fixes": "Verified mongod service is running locally, whitelisted port 27017."
+  }
+}

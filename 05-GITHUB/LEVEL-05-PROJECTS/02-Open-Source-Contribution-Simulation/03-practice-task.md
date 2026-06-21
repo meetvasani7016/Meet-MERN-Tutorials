@@ -1,0 +1,1 @@
+Recreate the remote syncing commands on a test local fork repository. Inspect configured links.

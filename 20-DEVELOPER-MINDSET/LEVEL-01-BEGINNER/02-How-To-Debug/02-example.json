@@ -1,0 +1,9 @@
+{
+  "Debugging Checklist": [
+    "1. Read the error message name and line location.",
+    "2. Identify the inputs that triggered the crash.",
+    "3. Add console.log statements to print state values before the crash line.",
+    "4. Isolate the block: write a minimal script to verify if the issue persists.",
+    "5. Apply a fix and dry-run code with edge cases."
+  ]
+}

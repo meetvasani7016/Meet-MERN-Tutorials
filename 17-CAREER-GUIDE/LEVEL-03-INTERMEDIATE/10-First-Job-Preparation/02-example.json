@@ -1,0 +1,8 @@
+{
+  "First Job Prep Checklist": [
+    "1. Master Git: Learn rebasing, staging, and merge conflict resolutions.",
+    "2. Team Communication: Practice clear standup updates (Done, Doing, Blocked).",
+    "3. Setup: Document your local machine configurations for future devs.",
+    "4. Quality: Learn the company's linter rules and testing commands."
+  ]
+}

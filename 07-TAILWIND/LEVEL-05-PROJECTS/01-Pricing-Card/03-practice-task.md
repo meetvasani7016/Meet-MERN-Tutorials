@@ -1,0 +1,1 @@
+Add list checks of plan advantages (e.g. 'Unlimited storage') inside the cards.

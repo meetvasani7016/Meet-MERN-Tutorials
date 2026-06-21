@@ -1,0 +1,1 @@
+Add a count display showing the total number of tasks currently in the list.

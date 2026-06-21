@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DOM Selection Demo</title>
+</head>
+<body>
+  <h1 id="heading">Welcome to MeetTutorials</h1>
+  <p class="desc">Learn HTML, CSS, and JS.</p>
+  <p class="desc">Every file teaches you visually.</p>
+  
+  <ul id="menu">
+    <li>Home</li>
+    <li>Lessons</li>
+  </ul>
+
+  <script>
+    // 1. Selecting by ID (returns a single element)
+    const title = document.getElementById("heading");
+    console.log("Heading text:", title.innerText);
+
+    // 2. Selecting by Class (returns a live HTMLCollection)
+    const paragraphs = document.getElementsByClassName("desc");
+    console.log("Number of paragraphs:", paragraphs.length);
+
+    // 3. querySelector (Universal selector - returns first matching element)
+    const firstParagraph = document.querySelector(".desc"); // Note the class dot (.)
+    const menuList = document.querySelector("#menu");        // Note the ID hash (#)
+
+    // 4. querySelectorAll (Returns a static NodeList of all matches)
+    const allListItems = document.querySelectorAll("#menu li");
+    console.log("List items count:", allListItems.length);
+    
+    // We can loop directly over querySelectorAll NodeLists!
+    allListItems.forEach((item, index) => {
+      console.log("Item " + index + ": " + item.innerText);
+    });
+  </script>
+</body>
+</html>

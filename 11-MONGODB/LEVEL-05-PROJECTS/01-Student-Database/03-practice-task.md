@@ -1,0 +1,1 @@
+Add a new field 'courses' to the studentSchema as an array of strings.

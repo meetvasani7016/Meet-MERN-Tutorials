@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <button id="alert-btn">Click Me</button>
+  <input type="text" id="name-input" placeholder="Type here...">
+  
+  <form id="my-form" style="margin-top:20px;">
+    <input type="email" placeholder="Enter email" required>
+    <button type="submit">Submit Email</button>
+  </form>
+
+  <script>
+    const alertBtn = document.getElementById("alert-btn");
+    const nameInput = document.getElementById("name-input");
+    const myForm = document.getElementById("my-form");
+
+    // 1. Click Event
+    alertBtn.addEventListener("click", function(event) {
+      console.log("Button clicked!");
+      console.log("Clicked element:", event.target); // event.target points to the button!
+    });
+
+    // 2. Keyboard Event (keyup occurs when releasing a key)
+    nameInput.addEventListener("keyup", (e) => {
+      console.log("Key pressed:", e.key); // e.key returns the literal letter (e.g. "a")
+      console.log("Input value:", nameInput.value); // current input value
+    });
+
+    // 3. Form Submit Event (Crucial for forms)
+    myForm.addEventListener("submit", (e) => {
+      e.preventDefault(); // STOP form from submitting and reloading page!
+      console.log("Form intercept successful. No page refresh occurred.");
+    });
+  </script>
+</body>
+</html>

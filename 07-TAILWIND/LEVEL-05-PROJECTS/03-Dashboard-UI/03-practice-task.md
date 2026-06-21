@@ -1,0 +1,1 @@
+Add a list table of recent transactions inside the main content area.
